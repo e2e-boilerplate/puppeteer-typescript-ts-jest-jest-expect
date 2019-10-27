@@ -9,11 +9,13 @@
   },
   "keywords": [
     "puppeteer",
+    "es6 modules",
     "typescript",
+    "jest",
     "boilerplate",
     "example"
   ],
-  "author": "Girma Nigusse",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^24.0.20",
