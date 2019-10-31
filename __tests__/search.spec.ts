@@ -10,9 +10,7 @@ describe("google search", () => {
     page = await browser.newPage();
 
     await Promise.race([
-      page
-        .goto("https://www.google.com", { waitUntil: "networkidle0" })
-        .catch(() => {
+      page.goto("https://www.google.com", { waitUntil: "networkidle0" }).catch(() => {
           throw new Error("Error");
         }),
       page.waitFor("body", { timeout: 6000 }).catch(() => {
