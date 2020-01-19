@@ -1,3 +1,4 @@
+import isCI from "is-ci";
 import puppeteer from "puppeteer";
 
 let page: any;
@@ -6,7 +7,9 @@ const searchBox: string = ".gLFyf.gsfi";
 
 describe("google search", () => {
   beforeAll(async () => {
-    browser = await puppeteer.launch({ headless: false });
+    browser = isCI
+      ? await puppeteer.launch({ headless: true })
+      : await puppeteer.launch({ headless: false });
     page = await browser.newPage();
 
     await Promise.race([
