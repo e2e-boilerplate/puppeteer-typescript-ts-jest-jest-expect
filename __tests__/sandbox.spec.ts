@@ -4,7 +4,7 @@ let page: any;
 let browser: any;
 const searchBox: string = ".gLFyf.gsfi";
 
-describe("google search", () => {
+describe("Sandbox", () => {
   beforeAll(async () => {
     browser = process.env.GITHUB_ACTIONS
       ? await puppeteer.launch()
