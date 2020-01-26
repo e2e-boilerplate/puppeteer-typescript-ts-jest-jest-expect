@@ -1,6 +1,9 @@
 name: puppeteer-es6modules-typescript-jest
 
-on: [push]
+on: 
+  push:
+  schedule:
+    - cron: '0 0 2-30/2 * *'
 
 jobs:
   build:
