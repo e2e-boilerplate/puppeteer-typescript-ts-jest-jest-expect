@@ -1,4 +1,4 @@
-name: puppeteer-es6modules-typescript-jest
+name: puppeteer-typescript-jest-expect
 
 on: 
   push:
@@ -12,13 +12,18 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Use Node.js 12.x
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-    - name: npm install, build, and test
+    - name: INSTALL
       run: |
         npm ci
-        npm run test
       env:
         CI: true
+    - name: LINT
+      run: |
+        npm run lint
+    - name: TEST
+      run: |
+        npm run test
