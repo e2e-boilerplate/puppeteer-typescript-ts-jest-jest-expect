@@ -1,7 +1,7 @@
 {
-  "name": "puppeteer-es6modules-typescript-jest",
+  "name": "puppeteer-es6-modules-typescript-jest-expect",
   "version": "1.0.0",
-  "description": "Puppeteer end-to-end test automation boilerplate project. Using ES6 modules, TypeScript, and jest",
+  "description": "Puppeteer end-to-end test automation boilerplate project. Using ES6 modules, TypeScript, Jest and Expect",
   "scripts": {
     "pretty": "npx prettier --no-config './__tests__/*.ts' --write",
     "lint": "npx tslint -c tslint.json './__tests__/*.ts'",
@@ -9,7 +9,9 @@
   },
   "keywords": [
     "puppeteer",
-    "es6 modules",
+    "es6",
+    "e2e",
+    "e2e test",
     "typescript",
     "jest",
     "boilerplate",

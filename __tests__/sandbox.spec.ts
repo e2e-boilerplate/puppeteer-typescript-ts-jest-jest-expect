@@ -2,7 +2,6 @@ import puppeteer from "puppeteer";
 
 let page: any;
 let browser: any;
-const searchBox: string = ".gLFyf.gsfi";
 
 describe("Sandbox", () => {
   beforeAll(async () => {
@@ -12,7 +11,9 @@ describe("Sandbox", () => {
     page = await browser.newPage();
 
     await page
-      .goto("https://e2e-boilerplates.github.io/sandbox/", { waitUntil: "networkidle0" })
+      .goto("https://e2e-boilerplates.github.io/sandbox/", {
+        waitUntil: "networkidle0"
+      })
       // tslint:disable-next-line:no-empty
       .catch(() => {});
   });
