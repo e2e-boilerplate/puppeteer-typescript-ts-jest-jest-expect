@@ -1,6 +1,6 @@
 {
-  "author": "",
-  "description": "Puppeteer end-to-end test automation boilerplate project. Using ES6 modules, TypeScript, Jest and Expect",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "description": "puppeteer end-to-end test automation boilerplate.",
   "devDependencies": {
     "@types/is-ci": "2.0.0",
     "@types/jest": "25.1.4",
@@ -23,7 +23,12 @@
     }
   },
   "keywords": [
+    "boilerplate",
+    "e2e",
+    "e2e tests",
+    "example",
     "expect",
+    "integration test",
     "jest",
     "puppeteer",
     "typescript"
