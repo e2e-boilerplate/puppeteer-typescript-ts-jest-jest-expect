@@ -6,7 +6,7 @@ Puppeteer end-to-end test automation boilerplate, using TypeScript, Jest and Exp
 
 ## Getting Started
 
-git clone git@github.com:e2e-boilerplate/puppeteer-typescript-jest-expect.git
-cd puppeteer-typescript-jest-expect
-npm install
-npm run test
+    	git clone git@github.com:e2e-boilerplate/puppeteer-typescript-jest-expect.git
+    	cd puppeteer-typescript-jest-expect
+    	npm install
+    	npm run test
