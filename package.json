@@ -1,9 +1,9 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/puppeteer-typescript-jest-expect/issues"
   },
-  "description": "Puppeteer end-to-end test automation boilerplate. Using Using TypeScript, Jest and Expect.",
+  "description": "Puppeteer end-to-end test automation boilerplate. using TypeScript, Jest and Expect.",
   "devDependencies": {
     "@types/is-ci": "2.0.0",
     "@types/jest": "25.1.4",
@@ -27,12 +27,7 @@
     }
   },
   "keywords": [
-    "boilerplate",
-    "e2e",
-    "e2e tests",
-    "example",
     "expect",
-    "integration test",
     "jest",
     "puppeteer",
     "typescript"
