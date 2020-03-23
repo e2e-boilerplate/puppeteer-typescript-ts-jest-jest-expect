@@ -1,14 +1,15 @@
 {
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "bugs": {
-    "url": "https://github.com/e2e-boilerplate/puppeteer-typescript-jest-expect/issues"
+    "url": "https://github.com/e2e-boilerplate/puppeteer-typescript-ts-jest-jest-expect/issues"
   },
   "dependencies": {
     "jest": "25.1.0",
     "puppeteer": "2.1.1",
+    "ts-jest": "25.2.1",
     "typescript": "3.8.3"
   },
-  "description": "Puppeteer end-to-end test automation boilerplate. Using TypeScript, Jest and Expect.",
+  "description": "Puppeteer end-to-end test automation boilerplate. Using TypeScript, ts-jest, Jest and Expect.",
   "devDependencies": {
     "@types/jest": "25.1.4",
     "@types/node": "13.9.2",
@@ -20,7 +21,7 @@
     "tslint-config-prettier": "1.18.0",
     "tslint-plugin-prettier": "2.2.0"
   },
-  "homepage": "https://github.com/e2e-boilerplate/puppeteer-typescript-jest-expect#readme",
+  "homepage": "https://github.com/e2e-boilerplate/puppeteer-typescript-ts-jest-jest-expect#readme",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -35,6 +36,7 @@
     "integration test",
     "jest",
     "puppeteer",
+    "ts-jest",
     "typescript"
   ],
   "license": "MIT",
@@ -44,10 +46,10 @@
       "git add"
     ]
   },
-  "name": "puppeteer-typescript-jest-expect",
+  "name": "puppeteer-typescript-ts-jest-jest-expect",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplate/puppeteer-typescript-jest-expect.git"
+    "url": "git+https://github.com/e2e-boilerplate/puppeteer-typescript-ts-jest-jest-expect.git"
   },
   "scripts": {
     "lint": "npx tslint -c tslint.json './__tests__/*.ts'",
