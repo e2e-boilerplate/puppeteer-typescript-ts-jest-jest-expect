@@ -42,8 +42,7 @@
   "license": "MIT",
   "lint-staged": {
     "*.{ts,js,css,json,md}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   },
   "name": "puppeteer-typescript-ts-jest-jest-expect",
