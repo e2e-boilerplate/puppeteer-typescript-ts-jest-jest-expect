@@ -53,7 +53,7 @@
   },
   "scripts": {
     "lint": "npx tslint -c tslint.json './__tests__/*.ts'",
-    "pretty": "npx prettier --no-config './__tests__/*.ts' --write",
+    "pretty": "npx prettier --no-config './__tests__/*.{js,ts}' --write",
     "test": "npx jest"
   },
   "version": "1.0.0"
