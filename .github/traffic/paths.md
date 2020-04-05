@@ -1,0 +1,12 @@
+| referrer                                                                                  | count | uniques |
+| :---------------------------------------------------------------------------------------- | :---- | :------ |
+| /e2e-boilerplate/puppeteer-typescript-ts-jest-jest-expect                                 | 14    | 3       |
+| /e2e-boilerplate/puppeteer-typescript-ts-jest-jest-expect/actions                         | 7     | 1       |
+| /e2e-boilerplate/puppeteer-typescript-ts-jest-jest-expect/runs/526368328                  | 4     | 1       |
+| /e2e-boilerplate/puppeteer-typescript-ts-jest-jest-expect/actions/runs/61098614           | 3     | 1       |
+| /e2e-boilerplate/puppeteer-typescript-ts-jest-jest-expect/runs/526421188                  | 3     | 1       |
+| /e2e-boilerplate/puppeteer-typescript-jest-expect/actions                                 | 2     | 2       |
+| /e2e-boilerplate/puppeteer-typescript-jest-expect/actions/runs/61098614                   | 2     | 2       |
+| /e2e-boilerplate/puppeteer-typescript-jest-expect/runs/526291241                          | 2     | 2       |
+| /e2e-boilerplate/puppeteer-typescript-ts-jest-jest-expect/blob/master/jest.config.js      | 2     | 2       |
+| /e2e-boilerplate/puppeteer-typescript-ts-jest-jest-expect/blob/master/.github/FUNDING.yml | 2     | 1       |
