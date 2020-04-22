@@ -12,6 +12,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
+      - name: 'install:linux:dep'
+        run: sudo apt-get install -y libgbm-dev
       - name: 'npm:install'
         run: npm install
         env:
