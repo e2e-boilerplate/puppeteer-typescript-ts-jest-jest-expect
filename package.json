@@ -5,7 +5,7 @@
   },
   "dependencies": {
     "jest": "25.5.4",
-    "puppeteer": "3.0.3",
+    "puppeteer": "3.0.4",
     "ts-jest": "25.5.0",
     "typescript": "3.8.3"
   },
