@@ -4,7 +4,7 @@
     "url": "https://github.com/e2e-boilerplate/puppeteer-typescript-ts-jest-jest-expect/issues"
   },
   "dependencies": {
-    "jest": "25.5.4",
+    "jest": "26.0.1",
     "puppeteer": "3.0.4",
     "ts-jest": "25.5.1",
     "typescript": "3.9.2"
