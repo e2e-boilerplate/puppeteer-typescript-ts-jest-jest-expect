@@ -6,7 +6,7 @@
   "dependencies": {
     "jest": "26.1.0",
     "puppeteer": "5.2.1",
-    "ts-jest": "26.1.3",
+    "ts-jest": "26.1.4",
     "typescript": "3.9.7"
   },
   "description": "Puppeteer end-to-end test automation boilerplate. Using TypeScript, ts-jest, Jest and Expect.",
