@@ -11,7 +11,7 @@
   },
   "description": "Puppeteer end-to-end test automation boilerplate. Using TypeScript, ts-jest, Jest and Expect.",
   "devDependencies": {
-    "@types/jest": "26.0.24",
+    "@types/jest": "27.0.2",
     "@types/node": "13.13.52",
     "@types/puppeteer": "3.0.6",
     "husky": "6.0.0",
